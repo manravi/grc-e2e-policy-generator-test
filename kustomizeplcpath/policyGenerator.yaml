@@ -9,9 +9,7 @@ policyDefaults:
     - PR.DS-1 Data-at-rest
   namespace: default
   placement:
-    name: e2e-grc-placement
-    manifests:
-      - path: placement
+    placementPath: placement/placement.yaml
   remediationAction: enforce
   severity: medium
 policies:
