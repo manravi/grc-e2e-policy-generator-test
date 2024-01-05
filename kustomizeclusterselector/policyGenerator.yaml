@@ -9,12 +9,12 @@ policyDefaults:
     - PR.DS-1 Data-at-rest
   namespace: default
   placement:
-    name: e2e-grc-placement-rule
+    name: e2e-grc-placement-rule-42156
     clusterSelectors:
       local-cluster: "true"
   remediationAction: enforce
   severity: medium
 policies:
-  - name: e2e-grc-policy-app
+  - name: rhacm4k-42156
     manifests:
       - path: policy1

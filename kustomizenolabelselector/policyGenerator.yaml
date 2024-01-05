@@ -9,10 +9,10 @@ policyDefaults:
     - PR.DS-1 Data-at-rest
   namespace: default
   placement:
-    name: e2e-grc-placement
+    name: placement-rhacm4k-42152
   remediationAction: enforce
   severity: medium
 policies:
-  - name: e2e-grc-policy-app
+  - name: rhacm4k-42152
     manifests:
       - path: policy1

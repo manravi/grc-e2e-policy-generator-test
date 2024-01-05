@@ -1,7 +1,7 @@
 apiVersion: cluster.open-cluster-management.io/v1beta1
 kind: Placement
 metadata:
-  name: placement-e2e-grc-policy-generator
+  name: placement-rhacm4k-42155
   namespace: default
 spec:
   predicates:

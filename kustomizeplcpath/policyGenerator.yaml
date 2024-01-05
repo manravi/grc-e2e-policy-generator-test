@@ -13,6 +13,6 @@ policyDefaults:
   remediationAction: enforce
   severity: medium
 policies:
-  - name: e2e-grc-policy-app
+  - name: rhacm4k-42155
     manifests:
       - path: policy1
