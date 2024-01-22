@@ -7,6 +7,10 @@ placementBindingDefaults:
 policyDefaults:
   controls:
     - PR.DS-1 Data-at-rest
+  description: "~This is a policy_generator test to test placement object generation with labelSelector!@#"
+  policyLabels:
+    e2e: "true"
+    testid: "42152"  
   namespace: default
   placement:
     name: placement-rhacm4k-42152
