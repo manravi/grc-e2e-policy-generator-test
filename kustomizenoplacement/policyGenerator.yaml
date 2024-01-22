@@ -5,10 +5,6 @@ metadata:
 policyDefaults:
   controls:
     - PR.DS-1 Data-at-rest
-  description: "~This is a policy_generator test description!@#"
-  policyLabels:
-    e2e: "true"
-    testid: "100"
   namespace: default
   remediationAction: inform
   severity: medium
