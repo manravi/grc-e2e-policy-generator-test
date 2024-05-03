@@ -1,12 +1,12 @@
 object-templates-raw: |
-    - complianceType: musthave
-      objectDefinition:
-        apiVersion: v1
-        kind: ConfigMap
-        metadata:
-          name: cmdev
-          namespace: default
-        labels:
-          env: dev
-        data:
-          environment = dev
+  - complianceType: musthave
+    objectDefinition:
+      apiVersion: v1
+      kind: ConfigMap
+      metadata:
+        name: cmdev
+        namespace: default
+      labels:
+        env: dev
+      data:
+        environment = dev
